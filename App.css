@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(154, 175, 84);
+}
+
+.container {
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  justify-content: center;
+}
+.container h1 {
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 54px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  width: 30%;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  font-size: 25px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+}
+button {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  margin: 20px 0px 0px 110px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: crimson;
+}
+.table-wrap {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.table-wrap tr {
+  align-items: center;
+}
+table,
+td,
+th {
+  background-color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+th,
+td {
+  padding: 25px;
+}
+.App-btn {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  cursor: pointer;
+}
+i.far {
+  color: red;
+}
+i.fas {
+  color: rgb(10, 158, 89);
+}
+/* .heading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+} */
